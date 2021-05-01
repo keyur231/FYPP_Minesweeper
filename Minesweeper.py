@@ -188,7 +188,7 @@ def show_mines():
                 mine_values[r][col] = 'M'
  
  
-if _name_ == "_main_":
+if __name__ == "__main__":
  
     # Size of grid
     n = 8
